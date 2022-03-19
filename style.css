@@ -1,0 +1,15 @@
+html {
+  background-color: green;
+  font-size: 20px;
+}
+
+h1 {
+  background-color: cyan;
+  font-size: 30px;
+}
+
+p {
+  background-color: yellow;
+  color: black;
+  font-size: 15px;
+}
