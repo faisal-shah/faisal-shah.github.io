@@ -5,38 +5,326 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <title>Hello, world!</title>
-<!--
-<style>
-.navbar-brand img {
-    margin-bottom: -100px;
-}
-</style>
--->
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                        <img src="https://picsum.photos/500/100" style="height: 1em;" />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item align-text-top">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-sm align-items-sm-start navbar-light">
+            <a class="navbar-brand" href="#">
+<!--
+                <img src="https://picsum.photos/300/250" style="height: 5em;" />
+-->
+                <img
+                src="https://www.sameerainstitute.com/wp-content/uploads/2020/12/cropped-logo-1.png"
+                class="bg-light rounded" style="height: 5em;" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pt-sm-3 fs-5" id="navbarmenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#theinstitute">The Institute</a></li>
+                            <li><a class="dropdown-item" href="#themission">The Mission</a></li>
+                            <li><a class="dropdown-item" href="#whoarewe">Instructors</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
+        <section class="p-3 p-sm-5">
+            <div class="container">
+                <h1 class="display-1 text-start px-md-5 mb-md-5">Register for our 2022 course offerings</h1>
+            </div>
+        </section>
+        <section class="bg-dark py-3 px-2 p-sm-5" id="courses">
+            <div class="container">
+                <div class="row justify-content-center gy-3">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card shadow">
+                            <img src="https://picsum.photos/250/250"
+                                 class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card Title 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet,
+                                    consetetur sadipscing elitr, sed diam nonumy
+                                    eirmod tempor invidunt ut labore et dolore
+                                    magna aliquyam erat, sed diam
+                                </p>
+                                <a href="#" class="btn btn-primary">See details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card shadow">
+                            <img src="https://picsum.photos/450/450"
+                                 class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card Title 2</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet,
+                                    consetetur sadipscing elitr, sed diam nonumy
+                                    eirmod tempor invidunt ut labore et dolore
+                                    magna aliquyam erat, sed diam
+                                </p>
+                                <a href="#" class="btn btn-primary">See details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card shadow">
+                            <img src="https://picsum.photos/450/450"
+                                 class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Card Title 3</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet,
+                                    consetetur sadipscing elitr, sed diam nonumy
+                                    eirmod tempor invidunt ut labore et dolore
+                                    magna aliquyam erat, sed diam
+                                </p>
+                                <a href="#" class="btn btn-primary">See details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="p-3 p-sm-5" id="theinstitute">
+            <div class="container">
+                <h1 class="display-2 text-start mb-3 mb-sm-4">The Institute</h1>
+                <div class="row">
+                    <div class="col-md-8 text-start lead">
+                        <p>We are a not-for-profit Islamic educational
+                            institution based in Houston, TX. The
+                            institute is dedicated to providing
+                            authentic Islamic education to our
+                            community through qualified teachers. The
+                            philosophy of our courses is distinct in
+                            its embrace of the entire academic
+                            tradition of the Ahl al-Sunnah wal-Jama’a
+                            with respect for all scholars of Tafsir,
+                            Hadith, Fiqh, and Usul al-fiqh.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-dark text-light p-3 p-sm-5" id="themission">
+            <div class="container">
+                <h1 class="display-2 text-end mb-3 mb-sm-4">The Mission</h1>
+                <div class="row justify-content-md-end">
+                    <div class="col-md-8 text-end lead">
+                        <p>
+                            Our mission is to help our students develop
+                            strong Islamic identities through love for
+                            Allah swt, Prophet sws and good company
+                            (sohbah), while providing them a thorough
+                            understanding of their religion that is
+                            both intellectually and spiritually
+                            uplifting. To that end, along with in
+                            person classes (as permitted due to the
+                            COVID pandemic), we also offer live online
+                            classes to cater to a geographically
+                            diverse audience and ensure the safety of
+                            all participants.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="p-3 p-sm-5" id="whoarewe">
+            <div class="container">
+                <h1 class="display-2 mb-3 mb-sm-4">Who are we</h1>
+                <div class="accordion accordion-flush"
+                    id="about-teacher-accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-4"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#about-teacher-1">
+                                Ustaadah Sameera Shah
+                            </button>
+                        </h2>
+                        <div id="about-teacher-1" class="accordion-collapse
+                        collapse" data-bs-parent="#about-teacher-accordion">
+                            <div class="accordion-body">
+                                <p>Sameera Institute is managed and was founded
+                                    by Ustaadhah Sameera Shah. Sameera was born
+                                    and raised in Lahore and graduated with a
+                                    B.Sc (Honors) in Economics from LUMS. She
+                                    received her Alimiyyah degree in 2009 from
+                                    Wifaq ul Madaris Board of Pakistan, and
+                                    certifications in Advanced Quran Study and
+                                    Tafsir and Advanced Islamic Jurisprudence
+                                    from Whitethread Institute UK. Sameera is a
+                                    homeschooling mom of three energetic boys.
+                                    She loves teaching introductory and
+                                    advanced level courses on Quran, Tafsir,
+                                    Hadith, Islamic Law, Arabic grammar, and
+                                    Purification of the heart to young girls
+                                    and women.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-4"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#about-teacher-2">
+                                Ustaadah Mariam Sattar
+                            </button>
+                        </h2>
+                        <div id="about-teacher-2" class="accordion-collapse
+                        collapse" data-bs-parent="#about-teacher-accordion">
+                            <div class="accordion-body">
+                                <p>Mariam Sattar was raised in Houston, Texas
+                                    where she received her B.Sc. in
+                                    Biochemistry from the University of
+                                    Houston. She began her pursuit of classical
+                                    Islamic learning at Zaynab Academy Online
+                                    studying Quran, Tafsir, Hadith, Fiqh, Usul al-Fiqh,
+                                    and Arabic under traditional scholars, and has
+                                    completed her Alima Degree. Mariam taught
+                                    at Sameera Institute for four years
+                                    teaching tafseer, fiqh, usool Fiqh, and
+                                    Arabic. Mariam also delivered talks on
+                                    purification of the heart and drawing closer to
+                                    Allah (swt). She is now a student at Qalam
+                                    Institute where she is revisiting some subjects and
+                                    learning from a contemporary standpoint.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-4"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#about-teacher-3">
+                                Sr. Rukaiya Ahmed
+                            </button>
+                        </h2>
+                        <div id="about-teacher-3" class="accordion-collapse
+                        collapse" data-bs-parent="#about-teacher-accordion">
+                            <div class="accordion-body">
+                                <p>Rukaiya Ahamed was raised in Houston. She
+                                    graduated with a Bachelor’s Degree in
+                                    Nutrition from the University of Houston
+                                    and is currently a Certified Surgical
+                                    Technologist. She began her journey
+                                    learning the deen with the Classical
+                                    Islamic Knowledge program at Sameera
+                                    Institute in 2015. She studied Tafsir,
+                                    Hadith, Fiqh, and Arabic under Ustazah
+                                    Sameera Shah and Ustaadh Mariam Sattar. She
+                                    has been a Teacher’s Assistant and teaches
+                                    courses part time at Sameera Institute. She
+                                    loves working with the youth. She
+                                    coordinates and teaches Girls Youth
+                                    Programs through Sameera Institute at
+                                    different masajid in Houston.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-4"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#about-teacher-4">
+                                Sr. Afsha Mohammed
+                            </button>
+                        </h2>
+                        <div id="about-teacher-4" class="accordion-collapse
+                        collapse" data-bs-parent="#about-teacher-accordion">
+                            <div class="accordion-body">
+                                <p>Afsha Mohammed is a native Houstonian. By
+                                    profession, she is a Registered Dietitian
+                                    and has a Master’s degree in Nutrition.
+                                    She is currently a stay home mom with her 3
+                                    year old daughter. She began her pursuit of
+                                    Classical Islamic knowledge at Sameera
+                                    Institute in 2015 and completed four years
+                                    of studies in courses including Quran,
+                                    Hadith, Fiqh and Arabic. She then completed
+                                    a full time Seminary program from Qalam
+                                    Institute and is now furthering her studies
+                                    as a full time year 3 Alimiyyah student at
+                                    Qalam institute. She teaches courses part
+                                    time at Sameera Institute to kids, youth
+                                    and adults.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-4"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#about-teacher-5">
+                                Sr. Erum Rab
+                            </button>
+                        </h2>
+                        <div id="about-teacher-5" class="accordion-collapse
+                        collapse" data-bs-parent="#about-teacher-accordion">
+                            <div class="accordion-body">
+                                <p>Erum Rab was born and raised in Karachi,
+                                    Pakistan. She later moved to New York where
+                                    she completed her BS degree in Business
+                                    Economics from the State University of New
+                                    York at Oneonta. She then completed her MBA
+                                    degree from Clarkson University. She has
+                                    taught Economics, Business Communication
+                                    and English to university level students.
+                                    She began persuing her Classical Islamic
+                                    Education, first from Zaynab Academy and
+                                    then from Sameera Institute, where Arabic
+                                    became her favorite subject. She has been
+                                    teaching Arabic at Sameera Institute for a
+                                    few years now.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-4"
+                                type="button" data-bs-toggle="collapse"
+                                data-bs-target="#about-teacher-6">
+                                Sr. Madiha Tukdi
+                            </button>
+                        </h2>
+                        <div id="about-teacher-6" class="accordion-collapse
+                        collapse" data-bs-parent="#about-teacher-accordion">
+                            <div class="accordion-body">
+                                <p>Madiha Tukdi was raised in Houston, Texas.
+                                    She graduated from University of Houston
+                                    with a bachelor degree in Nutrition. She
+                                    began her pursuit of classical Islamic
+                                    learning at Sameera Institute studying
+                                    Quran, Tafsir, Hadith, Fiqh, and Arabic
+                                    under her teachers Sameera Shah and Mariam
+                                    Sattar in 2015. Madiha became a teacher
+                                    assistant in her second year of Islamic
+                                    studies at Sameera Institute. She also
+                                    delivers talks to young girls across
+                                    masajid in the Sugar Land area.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
