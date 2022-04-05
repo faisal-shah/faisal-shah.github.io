@@ -1,0 +1,39 @@
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(to top,rgba(255,255,255,0), rgba(255,255,255,1)), url("faruk-kaymak-CNVvDjVDiVI-unsplash.jpg");
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.institute-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(to right, rgb(33 37 31 / 80%) 50%, rgb(33 37 31 / 20%)), url("usama-k10WjQcoMuE-unsplash.jpg");
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.mission-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(to left, rgb(33 37 31 / 80%) 50%, rgb(33 37 31 / 20%)), url("sand-gc57d401b6_1920.jpg");
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.whoarewe-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(to right, rgb(33 37 31 / 80%) 50%, rgb(33 37 31 / 20%)), url("daniele-levis-pelusi-ahi1khgLCAM-unsplash.jpg");
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
