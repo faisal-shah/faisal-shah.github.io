@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PineTime Companion</title>
+<style>
+  :root { color-scheme: light dark; --accent: #1f7a34; --muted: #5f6b62; }
+  @media (prefers-color-scheme: dark) { :root { --accent: #52c06a; --muted: #9aa79e; } }
+  body {
+    font-family: system-ui, sans-serif;
+    max-width: 34rem;
+    margin: 8vh auto 4rem;
+    padding: 0 1.5rem;
+    line-height: 1.6;
+  }
+  h1 { font-weight: 600; margin-bottom: .25rem; }
+  .sub { color: var(--muted); margin-top: 0; }
+  h2 { font-size: 1rem; margin: 2.5rem 0 .5rem; }
+  a.button {
+    display: block;
+    padding: .85rem 1rem;
+    margin: .5rem 0;
+    border: 1px solid currentColor;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  a.button small { display: block; font-weight: 400; color: var(--muted); }
+  p.note { color: var(--muted); font-size: .9rem; }
+  p.note a { color: var(--accent); }
+  code { font-size: .85em; }
+</style>
+</head>
+<body>
+
+<h1>PineTime Companion</h1>
+<p class="sub">Manage your PineTime smartwatch over Bluetooth — schedules and
+reminders, alarms, prayer times, weather, step history, phone-notification and
+music forwarding, firmware updates, and Apple Find&nbsp;My beacon keys.</p>
+
+<h2>Use it in a browser</h2>
+<a class="button" href="https://faisal-shah.github.io/PineTimeCompanion/">
+  Open the web app
+  <small>Chrome or Edge on desktop (needs Web Bluetooth). Nothing to install.</small>
+</a>
+<p class="note">The browser version manages watches and beacon keys. Firmware
+updates, notification &amp; music forwarding, and the Find&nbsp;My map need the
+Android app below.</p>
+
+<h2>Install on Android</h2>
+<p class="note">The download link stays the same when a new build is published,
+so this page always points at the latest.</p>
+<a class="button" href="https://github.com/faisal-shah/PineTimeCompanion/releases/latest/download/PineTimeCompanion-android-arm64-v8a.apk">
+  Download for Android (~38&nbsp;MB)
+  <small>The full app, for any 64-bit phone (roughly 2016 onward). Start here.</small>
+</a>
+<p class="note">Android will warn about installing outside the Play Store and ask
+you to allow it for your browser. That is expected for an app distributed
+directly like this.</p>
+<p class="note">Other Android builds and the desktop apps (Windows, macOS, Linux)
+are on the <a href="https://github.com/faisal-shah/PineTimeCompanion/releases/latest">releases
+page</a>.</p>
+
+<p class="note">There is no iPhone version, and the web app needs a Chromium
+browser (Chrome or Edge) — Safari and Firefox don&rsquo;t support Web Bluetooth.</p>
+
+</body>
+</html>
