@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sabeel Class Recordings</title>
+<style>
+  :root { color-scheme: light dark; --accent: #8A1538; --muted: #6b6259; }
+  @media (prefers-color-scheme: dark) { :root { --accent: #E0577F; --muted: #a89e94; } }
+  body {
+    font-family: system-ui, sans-serif;
+    max-width: 34rem;
+    margin: 8vh auto 4rem;
+    padding: 0 1.5rem;
+    line-height: 1.6;
+  }
+  h1 { font-weight: 600; margin-bottom: .25rem; }
+  .sub { color: var(--muted); margin-top: 0; }
+  h2 { font-size: 1rem; margin: 2.5rem 0 .5rem; }
+  a.button {
+    display: block;
+    padding: .85rem 1rem;
+    margin: .5rem 0;
+    border: 1px solid currentColor;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  a.button small { display: block; font-weight: 400; color: var(--muted); }
+  p.note { color: var(--muted); font-size: .9rem; }
+  code { font-size: .85em; }
+</style>
+</head>
+<body>
+
+<h1>Sabeel Class Recordings</h1>
+<p class="sub">Audio recordings of Sabeel Institute classes. Students listen and
+keep up; teachers track who has caught up. <strong>Students</strong> sign in with
+the email their teacher registered; <strong>staff</strong> sign in with their
+Sabeel Google account and are approved by an administrator.</p>
+
+<h2>Use it in a browser</h2>
+<a class="button" href="https://sabeel-class-recordings.web.app">
+  Open the web app
+  <small>Works on any device. Nothing to install.</small>
+</a>
+
+<h2>Install on Android</h2>
+<p class="note">Current build: <strong>v0.1.0</strong>. The download link stays the
+same when a new build is published, so this page is always the latest.</p>
+<a class="button" href="https://github.com/faisal-shah/faisal-shah.github.io/releases/download/recording-latest/sabeel-recording-app-arm64-v8a.apk">
+  Download for Android (39&nbsp;MB)
+  <small>For any phone from roughly 2016 onward. Start here.</small>
+</a>
+<a class="button" href="https://github.com/faisal-shah/faisal-shah.github.io/releases/download/recording-latest/sabeel-recording-app-universal.apk">
+  Download the all-devices build (93&nbsp;MB)
+  <small>Only if the one above won't install — it's larger but runs anywhere.</small>
+</a>
+
+<h2>How to use it</h2>
+<a class="button" href="USER-MANUAL.pdf">
+  User manual (PDF)
+  <small>Every screen, on a phone and on a computer, with step-by-step guides.</small>
+</a>
+
+<p class="note">Android will warn about installing outside the Play Store and ask
+you to allow it for your browser. That is expected for an app distributed
+directly like this.</p>
+
+<p class="note">There is no iPhone version.</p>
+
+</body>
+</html>
