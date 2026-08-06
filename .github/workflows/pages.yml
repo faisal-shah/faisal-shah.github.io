@@ -41,10 +41,11 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+      # NOTE (2026-08-06): Pages deployments for this site are not confirming.
+      # The upload succeeds and the content does go live, but the status poll
+      # sits at "deployment_in_progress" until the action aborts, so the run
+      # goes red for a site that already published. Raising the action's
+      # `timeout` input does not change it — the abort still fires at ten
+      # minutes. Verify the live URL before believing a red run here.
       - id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          # The default 10-minute wait is not always enough: a deploy has
-          # completed successfully well past it and only the confirmation
-          # timed out, reporting a red run for a site that was already live.
-          timeout: 1800000
