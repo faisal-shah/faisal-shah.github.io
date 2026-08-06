@@ -43,3 +43,8 @@ jobs:
           path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # The default 10-minute wait is not always enough: a deploy has
+          # completed successfully well past it and only the confirmation
+          # timed out, reporting a red run for a site that was already live.
+          timeout: 1800000
