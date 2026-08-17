@@ -1,2 +1,5 @@
 # Binaries are published as GitHub Release assets, never committed (bloats history).
 *.apk
+
+# The manual is a GitHub release asset, not a committed binary.
+sabeel-kanban/USER-MANUAL.pdf
