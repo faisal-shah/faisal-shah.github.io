@@ -50,7 +50,7 @@ Sabeel Google account and are approved by an administrator.</p>
 </a>
 
 <h2>Install on Android</h2>
-<p class="note">Current build: <strong>v0.6.3</strong>, published 11 September 2026.
+<p class="note">Current build: <strong>v0.6.4</strong>, published 11 September 2026.
 The download link stays the same when a new build is published, so this page is
 always the latest.</p>
 <a class="button" href="https://github.com/faisal-shah/faisal-shah.github.io/releases/download/recording-latest/sabeel-recording-app-arm64-v8a.apk">
@@ -61,6 +61,31 @@ always the latest.</p>
   Download the all-devices build (95&nbsp;MB)
   <small>Only if the one above won't install — it's larger but runs anywhere.</small>
 </a>
+
+<h2>What's new in v0.6.4</h2>
+<ul class="whatsnew">
+  <li><b>Pressing Play no longer asks about notifications.</b> The player&rsquo;s
+    controls never needed that permission; the question belongs to the
+    notifications screen.</li>
+  <li><b>An archived or unpublished recording keeps its Listening progress
+    page</b>, with the rows as they stood when it closed. On a course archived
+    with listening off, an open grant reads <em>Closed</em> rather than
+    &ldquo;Not complete&rdquo;.</li>
+  <li><b>Reminders behave.</b> A &ldquo;recording is ready&rdquo; push retried
+    later no longer announces a grant that has since closed; disabling an
+    account stops reminders reaching its phone; tapping a web push opens the
+    app.</li>
+  <li><b>Registers keep every mark.</b> Submitting attendance never removes a
+    stored mark it does not mention, and a session marked &ldquo;not
+    recorded&rdquo; cannot also hold a recording.</li>
+  <li><b>Clearer sign-in.</b> A session ended by a password reset says
+    &ldquo;sign in again&rdquo; instead of &ldquo;account is not active&rdquo;.
+    A recording withdrawn while you are listening now says it is no longer
+    available, without an error band.</li>
+  <li><b>Behind the scenes:</b> a failed Zoom import whose audio had landed can
+    be retried; several states a crash between two writes could leave repair
+    themselves; unused Android permissions removed and app backup switched off.</li>
+</ul>
 
 <h2>What's new in v0.6.3</h2>
 <ul class="whatsnew">
