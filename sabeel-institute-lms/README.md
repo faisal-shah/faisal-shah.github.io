@@ -11,6 +11,8 @@ is not released yet and is not listed on the site's index.
 ## What's committed here
 
 - `index.html` — the download page.
+- `USER-MANUAL.pdf` — a copy of the app repo's `docs/USER-MANUAL.pdf`, replaced at
+  every release; the page links to it.
 
 The **APKs are not committed here**: they are assets on the GitHub Release for
 each version tag of `Sabeel-Institute/lms`, under unversioned names, so the
