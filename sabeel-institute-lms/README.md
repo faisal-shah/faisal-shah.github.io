@@ -6,7 +6,7 @@ students and staff get the Android build; the app's update screen and its
 
 It replaces `../sabeel-recording-app/` on switchover day, when the institute
 moves from Sabeel Class Recordings to this app. Until then the page says the app
-is not released yet and is not listed on the site's index.
+is not released yet, and the site's index lists it as a pre-release.
 
 ## What's committed here
 
