@@ -5,8 +5,11 @@ students and staff get the Android build; the app's update screen and its
 `/get-app` page both link here (`DOWNLOAD_PAGE_URL` in `@sabeel/shared`).
 
 It replaces `../sabeel-recording-app/` on switchover day, when the institute
-moves from Sabeel Class Recordings to this app. Until then the page says the app
-is not released yet, and the site's index lists it as a pre-release.
+moves from Sabeel Class Recordings to this app. Until then it is a pre-release
+open to testers: the page links the web app and the Android build, and the
+site's index lists it as a pre-release. The links use `releases/latest`, which
+skips a GitHub pre-release, so each LMS build is published as the latest
+release.
 
 ## What's committed here
 
